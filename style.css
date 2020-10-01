@@ -1,0 +1,59 @@
+body {
+  font-size: 30px;
+  text-align: center;
+}
+
+#homeDiv {
+  width: 100%;
+  margin: 0 auto;
+  background: white;
+}
+
+#timeDiv {
+  float: center;
+  width: 30%;
+  height: 100px;
+  margin-top: 5%;
+  margin-left: 35%;
+}
+
+#content {
+    float: center;
+    width: 20%;
+    height: 100px;
+    margin-top: 5%;
+    margin-left: 45%;
+}
+
+.w3-allerta {
+  font-family: "Allerta Stencil", Sans-serif;
+}
+.timeStyle {
+  border: 2px solid 2072c9;
+  background-color: #5bc0de;
+  color: white;
+  border-radius: 10px;
+  width: 60%;
+  margin-left: 20%;
+}
+.timeButtonUp {
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  font-size: 75%;
+  margin-left: 2%;
+  border-radius: 10px;
+  margin-bottom: 2%;
+  border-color: green;
+}
+
+.timeButtonDown {
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  font-size: 75%;
+  margin-left: 2%;
+  border-radius: 10px;
+  margin-bottom: 2%;
+  border-color: red;
+}

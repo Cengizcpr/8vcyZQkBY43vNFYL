@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Enocta Project</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="homeDiv">
+        <div id="timeDiv">
+
+            <p class="timeStyle"> <b id="hour">9</b> : <b id="minutes">59</b> : <b id="second">59</b></p>
+
+            <p>
+                <input type="button" value="+" id="hourUp" class="timeButtonUp"><input type="button" id="hourDown"
+                    value="-" class="timeButtonDown"> :
+                <input type="button" value="+" id="minuteUp" class="timeButtonUp"><input type="button" id="minuteDown"
+                    value="-" class="timeButtonDown"> :
+                <input type="button" value="+" id="secondUp" class="timeButtonUp"><input type="button" id="secondDown"
+                    value="-" class="timeButtonDown">
+
+            </p>
+
+        </div>
+
+
+        <div id="content">
+            <table id="table">
+                <tr>
+                    <th> Birim</th>
+                    <th>Oran</th>
+
+                </tr>
+                <tr>
+                    <td id=moneyTypeUSD></td>
+                    <td id="moneyRateUSD"></td>
+                </tr>
+                <tr>
+                    <td id=moneyTypeEURO></td>
+                    <td id="moneyRateEURO"></td>
+                </tr>
+                <tr>
+                    <td id=moneyTypeGBP></td>
+                    <td id="moneyRateGBP"></td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+
+</body>
+
+</html>
